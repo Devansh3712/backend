@@ -1,3 +1,4 @@
 - [[how does the internet work?]]
 - [[how does TCP work?]]
-- [[what is DNS?]]
+- [[DNS and how it works?]]
+- [[domain name and URL]]

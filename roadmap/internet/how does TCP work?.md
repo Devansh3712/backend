@@ -4,13 +4,13 @@ transmission control protocol is used on top of IP to ensure reliable transmissi
 ## step 1: establish connection
 when 2 computers want to send data to each other over TCP, they first need to establish a connection using a 3-way handshake.
 
-![[Pasted image 20240109213709.png]]
+![establishing connection](https://cdn.kastatic.org/ka-perseus-images/d09f9d37ff2a2deb21a8822f8c99ba6b86319f0b.svg)
 
 - first computer sends a packet with SYN (synchronise) bit set to 1
 - second computer sends back a packet with the ACK (acknowledge) plus the SYN bit set to 1
 - first computer replies back with an ACK
 
-![[Pasted image 20240109215657.png]]
+![TCP header](https://cdn.kastatic.org/ka-perseus-images/9a4a79816965be53e1071cf6b0e2991cb4d170ca.svg)
 
 3 packets involved in the 3-way handshake do not typically include any data.
 
