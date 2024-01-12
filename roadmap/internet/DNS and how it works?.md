@@ -30,5 +30,8 @@ it is a server that actually holds, and is responsible for DNS resource records.
 ![DNS lookup](https://cf-assets.www.cloudflare.com/slt3lc6tev37/1NzaAqpEFGjqTZPAS02oNv/bf7b3f305d9c35bde5c5b93a519ba6d5/what_is_a_dns_server_dns_lookup.png)
 
 # types of DNS queries
-- recursive: client requires that a DNS server will respond to the client with either the requested record or an error message if the resolver can't find the record
-- iterative: client will allow a DNS server to return the best answer it can
+- **recursive**: client requires that a DNS server will respond to the client with either the requested record or an error message if the resolver can't find the record
+- **iterative**: client will allow a DNS server to return the best answer it can
+
+# references
+- https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/

@@ -11,3 +11,7 @@ a URL is composed of different parts, some mandatory and other optional.
 	- port indicates the technical "gate" used to access the resources on the web server, usually omitted if the web server uses standard ports of the HTTP protocol (80 for HTTP and 443 for HTTPS)
 - **path to resource**
 - **parameters**: extra parameters are a list of key value pairs separated by the & symbol
+
+# references
+- https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/
+- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL

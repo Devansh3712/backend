@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b96db8905dda446d",
+        "id": "d4e92f12e58efc6e",
         "type": "tabs",
         "children": [
           {
-            "id": "49371f55443623e2",
+            "id": "30b39ae12f32a750",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "roadmap/internet/domain name and URL.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roadmap/internet/domain name and URL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roadmap/internet/domain name and URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "roadmap/internet/domain name and URL.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -150,16 +142,19 @@
   },
   "active": "56131b2324c85051",
   "lastOpenFiles": [
+    "roadmap/vcs/merging and rebasing.md",
+    "roadmap/vcs/version control system.md",
+    "roadmap/vcs/git.md",
+    "roadmap/topics.md",
+    "roadmap/internet/DNS and how it works?.md",
+    "roadmap/internet/domain name and URL.md",
     "roadmap/vcs",
     "Untitled",
     "roadmap/internet/internet.md",
-    "roadmap/internet/domain name and URL.md",
-    "roadmap/internet/DNS and how it works?.md",
     "roadmap/internet/how does TCP work?.md",
     "Pasted image 20240109215657.png",
     "Pasted image 20240109213709.png",
     "roadmap/internet/how does the internet work?.md",
-    "roadmap/topics.md",
     "roadmap/internet/subtopics.md",
     "roadmap/internet",
     "roadmap",
