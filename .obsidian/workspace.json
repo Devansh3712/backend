@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "d4e92f12e58efc6e",
+        "id": "9029a3c698f49cf1",
         "type": "tabs",
         "children": [
           {
-            "id": "30b39ae12f32a750",
+            "id": "f2253f176ca048b6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -140,8 +140,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56131b2324c85051",
+  "active": "f2253f176ca048b6",
   "lastOpenFiles": [
+    "roadmap/internet/what is HTTP.md",
+    "roadmap/databases",
+    "roadmap/internet/internet.md",
     "roadmap/vcs/merging and rebasing.md",
     "roadmap/vcs/version control system.md",
     "roadmap/vcs/git.md",
@@ -150,7 +153,6 @@
     "roadmap/internet/domain name and URL.md",
     "roadmap/vcs",
     "Untitled",
-    "roadmap/internet/internet.md",
     "roadmap/internet/how does TCP work?.md",
     "Pasted image 20240109215657.png",
     "Pasted image 20240109213709.png",
