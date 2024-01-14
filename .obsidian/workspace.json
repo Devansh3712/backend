@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "9029a3c698f49cf1",
+        "id": "84debba61d7b51ce",
         "type": "tabs",
         "children": [
           {
-            "id": "f2253f176ca048b6",
+            "id": "e8b19d761d32caf5",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -140,15 +140,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2253f176ca048b6",
+  "active": "e8b19d761d32caf5",
   "lastOpenFiles": [
+    "roadmap/databases/relational databases.md",
+    "roadmap/databases/databases.md",
+    "roadmap/topics.md",
     "roadmap/internet/what is HTTP.md",
     "roadmap/databases",
     "roadmap/internet/internet.md",
     "roadmap/vcs/merging and rebasing.md",
     "roadmap/vcs/version control system.md",
     "roadmap/vcs/git.md",
-    "roadmap/topics.md",
     "roadmap/internet/DNS and how it works?.md",
     "roadmap/internet/domain name and URL.md",
     "roadmap/vcs",
