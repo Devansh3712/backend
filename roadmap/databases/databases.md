@@ -2,4 +2,5 @@
 - [[non-relational databases]]
 - [[indexes]]
 - [[normalisation]]
+- [[failure modes]]
 
