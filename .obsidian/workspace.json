@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roadmap/databases/CAP theorem.md",
+                "file": "roadmap/linux/bash.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roadmap/databases/CAP theorem.md",
+                "file": "roadmap/linux/bash.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roadmap/databases/CAP theorem.md",
+                "file": "roadmap/linux/bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roadmap/databases/CAP theorem.md"
+                "file": "roadmap/linux/bash.md"
               }
             }
           }
@@ -150,6 +150,9 @@
   },
   "active": "2a2e4bfee5193d8b",
   "lastOpenFiles": [
+    "roadmap/linux/bash.md",
+    "roadmap/internet/DNS and how it works?.md",
+    "roadmap/linux",
     "roadmap/databases/CAP theorem.md",
     "roadmap/databases/databases.md",
     "roadmap/databases/failure modes.md",
@@ -158,7 +161,6 @@
     "roadmap/databases/indexes.md",
     "Pasted image 20240118202535.png",
     "roadmap/databases/non-relational databases.md",
-    "roadmap/internet/DNS and how it works?.md",
     "roadmap/topics.md",
     "roadmap/internet/what is HTTP.md",
     "roadmap/databases",
