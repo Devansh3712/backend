@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roadmap/linux/bash.md",
+                "file": "roadmap/topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e692c5bc667219c3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roadmap/linux/bash.md",
+                "file": "roadmap/topics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roadmap/linux/bash.md",
+                "file": "roadmap/topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roadmap/linux/bash.md"
+                "file": "roadmap/topics.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "2a2e4bfee5193d8b",
   "lastOpenFiles": [
+    "roadmap/linux/linux.md",
+    "roadmap/topics.md",
     "roadmap/linux/bash.md",
     "roadmap/internet/DNS and how it works?.md",
     "roadmap/linux",
@@ -161,7 +162,6 @@
     "roadmap/databases/indexes.md",
     "Pasted image 20240118202535.png",
     "roadmap/databases/non-relational databases.md",
-    "roadmap/topics.md",
     "roadmap/internet/what is HTTP.md",
     "roadmap/databases",
     "roadmap/internet/internet.md",
