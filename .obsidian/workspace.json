@@ -11,12 +11,8 @@
             "id": "2a2e4bfee5193d8b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "roadmap/topics.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e692c5bc667219c3",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roadmap/topics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roadmap/topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "roadmap/topics.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,32 +142,34 @@
   },
   "active": "2a2e4bfee5193d8b",
   "lastOpenFiles": [
-    "roadmap/linux/linux.md",
-    "roadmap/topics.md",
-    "roadmap/linux/bash.md",
-    "roadmap/internet/DNS and how it works?.md",
-    "roadmap/linux",
-    "roadmap/databases/CAP theorem.md",
+    "roadmap/databases/MongoDB.md",
     "roadmap/databases/databases.md",
-    "roadmap/databases/failure modes.md",
+    "roadmap/databases/CAP theorem.md",
+    "roadmap/databases/non-relational databases.md",
     "roadmap/databases/relational databases.md",
     "roadmap/databases/normalisation.md",
     "roadmap/databases/indexes.md",
+    "roadmap/databases/failure modes.md",
+    "roadmap/vcs/git.md",
+    "roadmap/vcs/version control system.md",
+    "roadmap/vcs/merging and rebasing.md",
+    "roadmap/linux/bash.md",
+    "roadmap/internet/domain name and URL.md",
+    "roadmap/internet/how does the internet work?.md",
+    "roadmap/internet/how does TCP work?.md",
+    "roadmap/internet/DNS and how it works?.md",
+    "roadmap/linux/awk.md",
+    "roadmap/topics.md",
+    "roadmap/linux/linux.md",
+    "roadmap/linux",
     "Pasted image 20240118202535.png",
-    "roadmap/databases/non-relational databases.md",
     "roadmap/internet/what is HTTP.md",
     "roadmap/databases",
     "roadmap/internet/internet.md",
-    "roadmap/vcs/merging and rebasing.md",
-    "roadmap/vcs/version control system.md",
-    "roadmap/vcs/git.md",
-    "roadmap/internet/domain name and URL.md",
     "roadmap/vcs",
     "Untitled",
-    "roadmap/internet/how does TCP work?.md",
     "Pasted image 20240109215657.png",
     "Pasted image 20240109213709.png",
-    "roadmap/internet/how does the internet work?.md",
     "roadmap/internet/subtopics.md",
     "roadmap/internet",
     "roadmap",
