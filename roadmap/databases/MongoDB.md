@@ -16,7 +16,8 @@ if not specified, MongoDB will automatically generate a `_id` value using an Obj
 3. **process identifier**: next 2-bytes represent the PID of the process generating the ObjectId, further helps in ensuring uniqueness
 4. **counter**: last 3 bytes represent a counter that is incremented for each ObjectId generated within the same second, to ensure uniqueness within the same process
 
-# insert documents
+# CRUD operations
+## insert documents
 
 - insert a single document into a collection
 ```bash
@@ -33,7 +34,7 @@ db.collection.insertMany([
 ])
 ```
 
-# query documents
+## query documents
 
 - read all documents
 ```bash
@@ -71,7 +72,7 @@ db.collection.find(
 )
 ```
 
-# update documents
+## update documents
 
 - update a single document (updates the first document in collection where `key` = `value`)
 ```bash
@@ -95,7 +96,7 @@ db.collection.replaceOne(
 )
 ```
 
-# delete documents
+## delete documents
 - delete one document that match a condition
 ```bash
 db.collection.deleteOne( { <key>: <value> } )
@@ -108,3 +109,54 @@ db.collection.deleteMany( { <key>: <value> } )
 ```bash
 db.collection.deleteMany({})
 ```
+
+# aggregation operations
+## count
+return count of documents that would match the query
+```bash
+db.collection.find(<query>).count()
+db.collection.count(<query>)
+```
+
+## distinct
+find the distinct values for a specified field within a single collection
+```bash
+db.collection.distinct(<key>, { <key>: <value>, ... })
+```
+
+# aggregation pipeline
+specific flow of operations that processes, transforms, and returns results. successive operations are informed by the previous result.
+
+typical aggregation pipeline:
+`input` -> `$match` -> `$project` -> `$group` -> `$sort` -> `$limit` -> `$out`
+
+```bash
+db.collection.aggregate([
+	{ $match: { <key>: <value> } },
+	{ $group: { _id: $<key>, <output>: { <operation>: $<key> } } }
+])
+```
+
+some of the operations are:
+- `$sum`: sums up the defined value from all documents
+- `$avg`: calculates the average of all given values from all documents
+- `$min`: gets the minimum of the corresponding values from all documents
+- `$max`: gets the maximum of the corresponding values from all documents
+
+## aggregation stages
+- `$match`: used for filtering the documents that are given as input to the next stage
+- `$project`: used to select some specific fields from a collection
+- `$group`: group documents based on some value
+- `$sort`: used to sort the document that is rearranging them
+- `$limit`: used to pass first n numbers of documents
+- `$out`: used to write resulting documents to a new collection
+
+| SQL      | MongoDB  |
+| -------- | -------- |
+| WHERE    | $match   |
+| GROUP BY | $group   |
+| HAVING   | $match   |
+| SELECT   | $project |
+| ORDER BY | $sort    |
+| LIMIT    | $limit   |
+| COUNT    | $sum     |
